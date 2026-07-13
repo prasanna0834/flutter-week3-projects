@@ -1,17 +1,46 @@
-# climate_change
+# Clima Weather App
 
-A new Flutter project.
+A Flutter application that fetches real-time weather information using a public weather API and displays the temperature, weather condition, and city name.
+
+## Features
+
+- Fetches weather data from a public API
+- Uses device location to get local weather
+- Search weather by city name
+- JSON data parsing
+- Asynchronous API requests
+- Error handling for failed requests
+
+## Technologies Used
+
+- Flutter
+- Dart
+- HTTP Package
+- Geolocator
+- OpenWeather API
+
+## Concepts Demonstrated
+
+- REST API Integration
+- HTTP GET Requests
+- JSON Parsing
+- Async/Await
+- Future
+- Try-Catch Error Handling
+
+## External Packages
+
+- http
+- geolocator
+- flutter_spinkit
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Demo
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+(Add demo video or GIF here.)
